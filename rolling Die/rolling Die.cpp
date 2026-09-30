@@ -22,8 +22,8 @@ int main() {
 	int D20 = 0, D4 = 0;
 
 	while (D20 != 1 || D4 != 1) {
-		D20 == rollD20();
-		D4 == rollD4();
+		D20 = rollD20();
+		D4 = rollD4();
 		count++;
 	}
 	cout << "It took " << count << " rolls to get both a 1 on the D20 and a 1 on the D4." << endl;
